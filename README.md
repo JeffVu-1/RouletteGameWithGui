@@ -60,7 +60,7 @@ To build this project, follow these steps:
 1. **Clone the repository**  
 First, clone the repository to your local machine using the following command:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/JeffVu-1/RouletteGameWithGui.git
     ```
 2. **Open the solution**  
 Navigate to the project folder and open the solution file (`.sln`) in Visual Studio.
