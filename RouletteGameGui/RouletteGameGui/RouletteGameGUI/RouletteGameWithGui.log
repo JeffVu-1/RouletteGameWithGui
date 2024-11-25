@@ -1,0 +1,65 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Background Image\Roulette.jpg
+  1 File(s) copied
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\Fifty.png
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\Five.png
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\gif.gif
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\OneHundred.png
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\OneThousand.png
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\Template.psd
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\Ten.png
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Chips Image\TwentyFive.png
+  8 File(s) copied
+  C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Fonts\DelaGothicOne-Regular.ttf
+  1 File(s) copied
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Imgui\imgui_widgets.cpp(295,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  RouletteGame.cpp
+C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Roulette Game Files\RouletteGame.cpp(1057,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  RouletteGameGUI.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'RouletteGameGUI.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\RouletteGameGUI.cpp(100,37):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\RouletteGameGUI.cpp(100,37):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'void __cdecl `dynamic initializer for 'current_directory_string''(void)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(793,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(949,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameGui\Roulette Game Files\RouletteGame.cpp(221): warning C4715: 'RouletteGame::GetNumberColor': not all control paths return a value
+  All 1961 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RouletteGameWithGui.vcxproj -> C:\Users\Jeff\Desktop\Posting Onto GitHub\RouletteGameWithGui\RouletteGameGui\RouletteGameExport\RouletteGameGUI.exe
